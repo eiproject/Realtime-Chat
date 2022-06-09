@@ -46,8 +46,8 @@
   width: 70%;
   margin: 0px 5px 0px 0px;
   border-radius: 5px;
-  padding: 1px 0px;
   resize: None;
+  padding: 5px;
 }
 
 .send-button {
@@ -63,6 +63,8 @@
 }
 
 .chat-bubble-left-container {
+  display: flex;
+  justify-content: flex-start;
   background-color: #e55;
   margin: 5px;
   border-radius: 20px 0px 0px 0px;
@@ -71,6 +73,8 @@
 }
 
 .chat-bubble-right-container {
+  display: flex;
+  justify-content: flex-end;
   background-color: #55e;
   margin: 5px;
   border-radius: 0px 20px 0px 0px;

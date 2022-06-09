@@ -4,8 +4,8 @@ import ChatBubbleRight from "./ChatBubbleRight";
 function ChatHistory() {
   return (
     <div className="chat-history-container">
-      <ChatBubbleLeft />
-      <ChatBubbleRight />
+      <ChatBubbleLeft text={"ajk"}/>
+      <ChatBubbleRight text={"right"}/>
     </div>
   );
 }
