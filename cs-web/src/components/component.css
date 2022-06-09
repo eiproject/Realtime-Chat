@@ -27,8 +27,12 @@
 }
 
 .chat-history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background-color: #444444;
   margin: 5px;
+  height: 100%;
 }
 
 .input-container {
@@ -56,4 +60,32 @@
 .send-button:hover {
   background-color: #ccc;
   duration: 500ms;
+}
+
+.chat-bubble-left-container {
+  background-color: #e55;
+  margin: 5px;
+  border-radius: 20px 0px 0px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.chat-bubble-right-container {
+  background-color: #55e;
+  margin: 5px;
+  border-radius: 0px 20px 0px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.chat-bubble-left-text {
+  color: #fff;
+  font-size: 14px;
+  margin: 0px 20px;
+}
+
+.chat-bubble-right-text {
+  color: #fff;
+  font-size: 14px;
+  margin: 0px 20px;
 }
